@@ -18,3 +18,5 @@ spring:
             uri: http://k8s-backend-post-service:8080
             predicates:
               - Path=/api/post/**
+  config:
+    import: file:/etc/config/application-dev.yml
